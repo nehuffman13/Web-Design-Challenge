@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <!--META TAGS-->
+        <meta charset="utf-8"/>
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Nicole Huffman">
+        <meta name="description" content="How weather changes as you get closer to the equator.">
+
+        <!--BOOTSTARP CSS-->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="SHA256:isddd+OWqZ3Enoe1v4ZrH6y04eysAqrFn+/LVAK6/5Y" crossorigin="anonymous">
+        <link rel="stylesheet" href="Styles.css">
+        <title>WeatherPy - Nicole Huffman</title>
+
+    </head>
+
+    <!--BODY-->
+
+    <!--NAVBAR-->
+    <body>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="index.html">Latitude</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                       
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                          </div>
+                        </li>
+                        
+                        <li class="nav-item">
+                          <a class="nav-link " href="comparisons.html" tabindex="-1" >Comparisons</a>
+                        </li>
+                        <li class = "nav-item">
+                          <a class = "nav-link " href="data.html" tabindex="-1" >Data</a>
+                        </li>
+                        
+                        </ul>
+                      
+                    </div>
+                </nav>
+
+                <!--JUMBOTRON-->
+                <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-4">Wind Vs. Latitude</h1>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                            <img src="Resources/assets/images/Latitude_vs_wind.png" alt="Wind Speed Graph">
+                        </div>
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                <p class="lead">There is a pretty significant lack of information to determine any correlation between wind speed and latitude. However, wind speed 
+                                    in the northen hemisphere tends to be higher than southern hemisphere.</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center">Humidity Vs. Latitude</a></h5>
+                                        </div>
+                                        <img style="height: 200px; width: 100%; display: block;" src="Resources/assets/images/Latitude_vs_humidity.png" alt="Humidity Graph">
+                                        <div class="card-footer text-muted" style="text-align: center">
+                                            <a href="humidity.html" class="card-link">See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center">Temperature Vs. Latitude</a></h5>
+                                        </div>
+                                        <img style="height: 200px; width: 100%; display: block;" src="Resources/assets/images/Latitude_vs_max_temp.png" alt=" Max Temperature Graph">
+                                        <div class="card-footer text-muted" style="text-align: center">
+                                            <a href="temperature.html" class="card-link">See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center">Cloudiness Vs. Latitude</a></h5>
+                                        </div>
+                                        <img style="height: 200px; width: 100%; display: block;" src="Resources/assets/images/Latitude_vs_cloudiness.png" alt="Cloudiness Graph">
+                                        <div class="card-footer text-muted" style="text-align: center">
+                                            <a href="cloudiness.html" class="card-link">See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+
+
+                        <footer class="footer">
+                                <div class="container">
+                                  <a href="https://github.com/nehuffman/Web-Design-Challenge" target="_blank">
+                                    <i class="fab fa-github fa-2x"></i>
+                                  </a>
+                                  
+                                  <a href="mailto:nehuffman13@gmail.com">
+                                    <i class="fas fa-at fa-2x"></i>
+                                  </a>
+                                  <p class="text text-center">
+                                    <small>© Copyright Nicole Huffman 2020</br>
+                                    Data Science and Visualization Bootcamp</small>
+                                  </p>
+                                </div>
+                            </footer>
+        </body>       
+                
+    </html>
